@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="title">
+            <span class="bmi">BMI </span> C<span class="red">A</span>LCULATOR
+            <img src="thorhammer.png" alt="">
+        </div>
+    </header>
+    <div class="main">
+        <div class="container">
+            <!-- <form action="#" method="get"> -->
+                <div class="age part">
+                    Age: <input type="text" name="age" placeholder="Enter" id="age">
+                </div>
+                <div class="gender part">
+                    <input type="radio" name="gender" id="male" value="male">
+                    <label for="male">Male</label>
+                    <input type="radio" name="gender" id="female" value="female">
+                    <label for="female">Female</label>
+                </div>
+                <div class="values part">
+                    <div class="height">
+                        Height  <input type="text" name="height" placeholder="in (cm)" required id="height">
+                    </div>
+                    <div class="weight">
+                        Weight  <input type="text" name="weight" placeholder="in (kg)" required id="weight">
+                    </div>
+                </div>
+
+                <div class="submit">
+                    <button class="calculate" id="submit">Submit</button>
+                </div>
+
+                <div class="result part">
+                    <p id="final">Enter details to know your BMI</p> 
+                </div>
+            <!-- </form> -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
